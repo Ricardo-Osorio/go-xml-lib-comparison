@@ -1,11 +1,11 @@
 # README
 
 This project compares the performance of different libraries to parse XML in Go.
-  - native package
+  - [native package](https://pkg.go.dev/encoding/xml)
   - https://github.com/tamerh/xml-stream-parser
   - https://github.com/beevik/etree
 
-Results can be found in the ./results directory.
+Results can be found in the [`./results` directory](/results/README.md).
 
 The program can also be run as standalone.
 
