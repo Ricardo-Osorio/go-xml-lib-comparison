@@ -1,0 +1,36 @@
+goos: linux
+goarch: amd64
+pkg: xml-perf-test/pkg/xml
+cpu: Intel(R) Xeon(R) Gold 6348 CPU @ 2.60GHz
+Benchmark_etree-8               	      70	  17598400 ns/op	 5015739 B/op	  128126 allocs/op
+Benchmark_etree-8               	      72	  16974891 ns/op	 5015287 B/op	  128126 allocs/op
+Benchmark_etree-8               	      73	  17039485 ns/op	 5015470 B/op	  128126 allocs/op
+Benchmark_etree-8               	      69	  16458674 ns/op	 5015416 B/op	  128126 allocs/op
+Benchmark_etree-8               	      80	  15229055 ns/op	 5014452 B/op	  128126 allocs/op
+Benchmark_etree-8               	      73	  16082696 ns/op	 5015629 B/op	  128126 allocs/op
+Benchmark_etree-8               	      78	  14991520 ns/op	 5014579 B/op	  128126 allocs/op
+Benchmark_etree-8               	      79	  15072024 ns/op	 5014516 B/op	  128126 allocs/op
+Benchmark_etree-8               	      80	  14822971 ns/op	 5014555 B/op	  128126 allocs/op
+Benchmark_etree-8               	      76	  14485608 ns/op	 5014741 B/op	  128126 allocs/op
+Benchmark_native-8              	      76	  15152684 ns/op	 3730389 B/op	  108087 allocs/op
+Benchmark_native-8              	      80	  15241508 ns/op	 3730203 B/op	  108087 allocs/op
+Benchmark_native-8              	      78	  15032786 ns/op	 3730349 B/op	  108087 allocs/op
+Benchmark_native-8              	      81	  15784116 ns/op	 3731171 B/op	  108087 allocs/op
+Benchmark_native-8              	      78	  14792471 ns/op	 3730235 B/op	  108087 allocs/op
+Benchmark_native-8              	      81	  15301318 ns/op	 3730043 B/op	  108087 allocs/op
+Benchmark_native-8              	      78	  15416489 ns/op	 3730347 B/op	  108087 allocs/op
+Benchmark_native-8              	      78	  17665901 ns/op	 3730338 B/op	  108087 allocs/op
+Benchmark_native-8              	      76	  17435388 ns/op	 3730377 B/op	  108087 allocs/op
+Benchmark_native-8              	      74	  16375599 ns/op	 3730643 B/op	  108087 allocs/op
+Benchmark_xml_stream_parser-8   	     154	   7126330 ns/op	 4380827 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     183	   6508771 ns/op	 4380326 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     177	   6973531 ns/op	 4380478 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     180	   6899985 ns/op	 4380435 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     175	   6771938 ns/op	 4380484 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     175	   7091661 ns/op	 4381432 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     168	   6945190 ns/op	 4380586 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     176	   6531118 ns/op	 4380412 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     184	   6593492 ns/op	 4380269 B/op	   52056 allocs/op
+Benchmark_xml_stream_parser-8   	     188	   6140841 ns/op	 4380279 B/op	   52056 allocs/op
+PASS
+ok  	xml-perf-test/pkg/xml	46.747s

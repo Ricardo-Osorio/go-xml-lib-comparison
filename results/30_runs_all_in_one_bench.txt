@@ -1,0 +1,36 @@
+goos: linux
+goarch: amd64
+pkg: xml-perf-test/pkg/xml
+cpu: Intel(R) Xeon(R) Gold 6348 CPU @ 2.60GHz
+Benchmark_all-8   	      58	  20720431 ns/op	13120669 B/op	  288271 allocs/op
+Benchmark_all-8   	      54	  20144261 ns/op	13120858 B/op	  288270 allocs/op
+Benchmark_all-8   	      60	  19007505 ns/op	13120308 B/op	  288270 allocs/op
+Benchmark_all-8   	      63	  18567384 ns/op	13119118 B/op	  288269 allocs/op
+Benchmark_all-8   	      54	  18634442 ns/op	13120315 B/op	  288270 allocs/op
+Benchmark_all-8   	      64	  18306436 ns/op	13118895 B/op	  288270 allocs/op
+Benchmark_all-8   	      62	  17921083 ns/op	13120528 B/op	  288269 allocs/op
+Benchmark_all-8   	      63	  18687436 ns/op	13119246 B/op	  288270 allocs/op
+Benchmark_all-8   	      70	  18744040 ns/op	13118384 B/op	  288269 allocs/op
+Benchmark_all-8   	      61	  19096855 ns/op	13119325 B/op	  288269 allocs/op
+Benchmark_all-8   	      58	  20098353 ns/op	13119629 B/op	  288270 allocs/op
+Benchmark_all-8   	      58	  20238756 ns/op	13119696 B/op	  288270 allocs/op
+Benchmark_all-8   	      64	  19657720 ns/op	13118910 B/op	  288270 allocs/op
+Benchmark_all-8   	      62	  20897129 ns/op	13119072 B/op	  288269 allocs/op
+Benchmark_all-8   	      52	  21435556 ns/op	13120376 B/op	  288269 allocs/op
+Benchmark_all-8   	      57	  20716128 ns/op	13119646 B/op	  288269 allocs/op
+Benchmark_all-8   	      55	  18195035 ns/op	13119921 B/op	  288269 allocs/op
+Benchmark_all-8   	      61	  17806230 ns/op	13119041 B/op	  288269 allocs/op
+Benchmark_all-8   	      63	  18980528 ns/op	13118956 B/op	  288269 allocs/op
+Benchmark_all-8   	      62	  17909297 ns/op	13119059 B/op	  288269 allocs/op
+Benchmark_all-8   	      67	  18241339 ns/op	13118456 B/op	  288270 allocs/op
+Benchmark_all-8   	      68	  18284449 ns/op	13118610 B/op	  288270 allocs/op
+Benchmark_all-8   	      66	  17583662 ns/op	13118889 B/op	  288270 allocs/op
+Benchmark_all-8   	      64	  17973452 ns/op	13118770 B/op	  288270 allocs/op
+Benchmark_all-8   	      68	  17808458 ns/op	13118454 B/op	  288270 allocs/op
+Benchmark_all-8   	      70	  17790530 ns/op	13118328 B/op	  288270 allocs/op
+Benchmark_all-8   	      72	  17559723 ns/op	13118093 B/op	  288270 allocs/op
+Benchmark_all-8   	      61	  18762734 ns/op	13119033 B/op	  288269 allocs/op
+Benchmark_all-8   	      67	  17954654 ns/op	13118413 B/op	  288269 allocs/op
+Benchmark_all-8   	      64	  17912735 ns/op	13118724 B/op	  288269 allocs/op
+PASS
+ok  	xml-perf-test/pkg/xml	41.463s

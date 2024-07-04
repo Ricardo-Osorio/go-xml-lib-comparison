@@ -1,0 +1,9 @@
+goos: linux
+goarch: amd64
+pkg: xml-perf-test/pkg/xml
+cpu: Intel(R) Xeon(R) Gold 6348 CPU @ 2.60GHz
+Benchmark_etree-8               	      70	  14824671 ns/op	 5015624 B/op	  128126 allocs/op
+Benchmark_native-8              	      76	  15202295 ns/op	 3730640 B/op	  108087 allocs/op
+Benchmark_xml_stream_parser-8   	     187	   6428338 ns/op	 4380484 B/op	   52056 allocs/op
+PASS
+ok  	xml-perf-test/pkg/xml	4.214s
